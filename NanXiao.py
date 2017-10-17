@@ -26,7 +26,7 @@ def Him(url, filename):
 #	draw.line(((10, 1),(10,height-20)) , fill=(225,225,225))
 #	draw.line(((width-10, 1),(width-10,height-20)) , fill=(225,225,225))
 	draw.rectangle(((10,1),(width-10,40)),fill=(223,223,223));
-	font = ImageFont.truetype("/root/9-9/font/MSYHBD.TTC",14)
+	font = ImageFont.truetype(u"H:/个人简历/pachong/Jobs-search/Zhaopin/font/MSYHBD.TTC",14)
 	fontcolor = (14,77,157)
 	draw.text((20,10), u"时间", fill=fontcolor,font=font)
 	draw.text((140,10), u"地点", fill=fontcolor,font=font)
